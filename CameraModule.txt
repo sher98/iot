@@ -1,0 +1,13 @@
+import Pi Camera
+import time
+Camera=PiCamera.PiCamera()
+Camera=Capture("Arun.jpg")
+Camera.vflip=True
+Camera.Capture("arun01.jpg")
+Camera.start_recording('xyzvid.h264')
+time.sleep(5)
+Camera.stop_recording()
+
+
+to view recording video
+$Omx player examplevid.h264
