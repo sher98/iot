@@ -11,3 +11,7 @@ Camera.stop_recording()
 
 to view recording video
 $Omx player examplevid.h264
+
+Enable Camera
+pi@raspberrypi:~ /Desktop$ sudo raspi-config
+Interfacing option Enable camera
