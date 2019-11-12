@@ -1,0 +1,14 @@
+*install putty soft in the main system which acts as source system.
+*check IP address of RaspberryPi which acts as client system.
+  $ifconfig         IP: /192.168.3.121
+*enable SSH in the raspi- Config
+   interfacing
+   SSH -enable
+*install the req soft in RPi by typing the following command.
+   :  sudo apt- get remove xrdp unc 4 Server    tight Unc Server
+   :  sudo apt- get update
+   :  sudo apt- get install xrdp
+   :  sudo apt- get install tight unc Server
+*In server syst open putty soft and give IP addr of RPi for the conn.
+*open remote desktop to view RPi device and operate it from server system.
+*After all step complete now we can access the RPI with Remote login from server syst to the device
