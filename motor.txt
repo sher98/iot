@@ -1,0 +1,14 @@
+#include <Servo.h>
+int p = A0;
+int val=0;  
+int m=9;
+void setup() {
+ pinMode(m,OUTPUT); 
+}
+
+void loop() {
+  val = analogRead(p);           
+  val = map(val, 0, 1023, 0, 255);     
+  analogWrite(m,val);                  
+  delay(1);                          
+}
